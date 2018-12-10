@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IntentActivity">
+    <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et1" android:hint="Enter Phone No."/>
+    <Button
+            android:id="@+id/btn"
+            android:textSize="25dp"
+            android:text="Call Me"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:text="Browse Phone Contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/browser_btn"/>
+    <Button
+            android:text="Whatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/whatsapp_btn"/>
+    <Button
+            android:text="Start Another Activity"
+            android:id="@+id/activity2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
